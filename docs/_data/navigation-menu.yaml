@@ -13,6 +13,10 @@ docs_list:
   title: Documentation
   url: /jamops/
 toc:
+  - title: Howto
+    subfolderitems:
+      - page: Howto start
+        url: /jamops/howto/howto-start
   - title: Overview
     subfolderitems:
       - page: Dashboard
@@ -21,29 +25,23 @@ toc:
         url: /jamops/overview/applications
       - page: Cloud actions
         url: /jamops/overview/cloud-actions
+      - page: Task inbox
+        url: /jamops/overview/task-inbox
       - page: Uptime
         url: /jamops/overview/uptime
   - title: Reporting
     subfolderitems:
-      - page: Piece 1
-        url: /piece1.html
-      - page: Piece 2
-        url: /piece2.html
-      - page: Piece 3
-        url: /piece3.html
-  - title: Settings
+      - page: Projects
+        url: /jamops/reporting/projects
+      - page: Modules
+        url: /jamops/reporting/modules
+      - page: Constants
+        url: /jamops/reporting/constants
+  - title: Application
     subfolderitems:
-      - page: Piece 1
-        url: /piece1.html
-      - page: Piece 2
-        url: /piece2.html
+      - page: Export
+        url: /jamops/reporting/constants
+      - page: Rename
+        url: jamops/reporting/constants
       - page: Piece 3
-        url: /piece3.html
-  - title: Help
-    subfolderitems:
-      - page: Widget 1
-        url: /widget1.html
-      - page: Widget 2
-        url: /widget2.html
-      - page: Widget 3
-        url: /widget3.html
+        url: jamops/reporting/constants
