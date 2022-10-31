@@ -1,0 +1,70 @@
+.side-nav {
+  height: 100%;
+  width: min-content;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #8198a9;
+  overflow-x: hidden;
+  padding: 20px 30px 0px 25px;
+}
+
+.side-nav .side-nav-title {
+  text-decoration: none;
+  color: #edbe5d;
+  font-size: 24px;
+  display: block;
+  white-space: nowrap;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+.side-bar-list-div {
+  margin-top: 15px;
+}
+
+.side-bar-list-item-div {
+  margin-top: 5px;
+}
+
+.side-nav h3 {
+  color: #ffffff;
+}
+
+.side-nav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #ffffff;
+  display: block;
+  white-space: nowrap;
+}
+
+.sidenav li {
+  color: #ffffff;
+  list-style: none;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav h3 {
+  color: #ffffff;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}

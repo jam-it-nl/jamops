@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="/jamops/assets/css/side-nav.css" />
+
+<div class="side-nav">
+  <a class="side-nav-title" href="{{ site.data.navigation-menu.docs_list.url }}"
+    >{{ site.data.navigation-menu.docs_list.title }}</a
+  >
+  {% for item in site.data.navigation-menu.toc %}
+  <div class="side-bar-list-div">
+    <h3>{{ item.title }}</h3>
+    {% for entry in item.subfolderitems %}
+    <div class="side-bar-list-item-div">
+      <a href="{{ entry.url }}">{{ entry.page }}</a>
+    </div>
+    {% endfor %}
+  </div>
+  {% endfor %}
+</div>
