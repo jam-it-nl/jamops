@@ -1,7 +1,7 @@
 # docs_list_title: ACME Documentation
 # docs:
 #   - title: Uptime
-#     url: /jamops/overview/uptime
+#     url: /jamops-documentation/overview/uptime
 
 #   - title: Configuration
 #     url: configuration.html
@@ -11,36 +11,36 @@
 
 docs_list:
   title: Documentation
-  url: /jamops/
+  url: /jamops-documentation/
 toc:
   - title: Howto
     subfolderitems:
       - page: Howto start
-        url: /jamops/howto/howto-start
+        url: /jamops-documentation/howto/howto-start
   - title: Overview
     subfolderitems:
       - page: Dashboard
-        url: /jamops/overview/dashboard
+        url: /jamops-documentation/overview/dashboard
       - page: Appications
-        url: /jamops/overview/applications
+        url: /jamops-documentation/overview/applications
       - page: Cloud actions
-        url: /jamops/overview/cloud-actions
+        url: /jamops-documentation/overview/cloud-actions
       - page: Task inbox
-        url: /jamops/overview/task-inbox
+        url: /jamops-documentation/overview/task-inbox
       - page: Uptime
-        url: /jamops/overview/uptime
+        url: /jamops-documentation/overview/uptime
   - title: Reporting
     subfolderitems:
       - page: Projects
-        url: /jamops/reporting/projects
+        url: /jamops-documentation/reporting/projects
       - page: Modules
-        url: /jamops/reporting/modules
+        url: /jamops-documentation/reporting/modules
       - page: Constants
-        url: /jamops/reporting/constants
+        url: /jamops-documentation/reporting/constants
   - title: Application
     subfolderitems:
       - page: Export
-        url: /jamops/reporting/constants
+        url: /jamops-documentation/reporting/constants
       - page: Rename
         url: jamops/reporting/constants
       - page: Piece 3
