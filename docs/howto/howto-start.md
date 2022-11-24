@@ -4,15 +4,9 @@ title: Applications
 permalink: /howto/howto-start/
 ---
 
-## Expertisecentrum Systeemontwikkeling
-
-Versie 1.0
-
----
-
 ## Inleiding
 
-Howto start using JamOps
+Howto start using JamOps.
 
 ---
 
@@ -28,9 +22,9 @@ Howto start using JamOps
 
 ## Procedure
 
-To be able to use the JamOps tool, we have made onboarding as easy as possible, you only have to set up your personal environment once. You do not need the administrators of the JamOps tool for this either. The combination to get full access to the tool is the combination Rotterdam ADFS account and your Mendix account. The tool will then see which projects your account has access to and will display your projects based on this information.
+To be able to use the JamOps tool, we have made onboarding as easy as possible, you only have to set up your personal environment once. You do not need the administrators of the JamOps tool for this either. The combination to get full access to the tool is the combination of your JamOps/Organization account and your Mendix api-key. The tool will then see which projects your account has access to and will display your projects based on this information.
 
-Ga naar **[cicd010.rotterdam.nl](https://cicd010.rotterdam.nl)** je wordt nu doorgeleid naar de Rotterdamse ADFS pagina.
+Go to the url of your JamOps application. Log in with your organization account or the credentials supplied by JAM-it.
 
 ![AdfsRotterdam](/assets/AdfsRotterdam.png)
 
